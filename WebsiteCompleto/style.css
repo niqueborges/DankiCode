@@ -1,5 +1,5 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -7,24 +7,53 @@
 
 .center{
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
+    margin:0 auto;
+    padding:0 2%;
     display: flex;
 }
 
 header{
     background-color: white;
-    padding: 20px 0;
-    border-bottom:2px solid #16507b;
+    padding:20px 0;
+    border-bottom:1px solid rgb(200, 200, 200);
 }
 
 .logo{
     color: #16507b;
 }
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width:80%;
+    text-align: right;
+}
+
 .menu a{
     color:#124265;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+
 }
 
 .menu a:hover{
     color:#007bff;
+}
+
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding:8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.menu .btn-menu:hover{
+    background-color:#124265;
+    color: white;
 }
