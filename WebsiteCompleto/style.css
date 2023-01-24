@@ -36,7 +36,8 @@ header{
     color:#124265;
     font-size: 14px;
     text-decoration: none;
-    display: inline-block;
+    margin-right: 20px;
+    transition:0.4s;
 
 }
 
@@ -49,7 +50,7 @@ header{
     display: inline-block;
     padding:8px 16px;
     color: white;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 
