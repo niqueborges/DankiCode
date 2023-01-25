@@ -107,6 +107,7 @@ section.main{
 }
 
 .diferencial-single{
+    border-radius: 10px;
     background-color: rgb(163, 163, 238);
     width: 50%;
     margin-right: 1%;
