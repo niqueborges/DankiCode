@@ -10,6 +10,7 @@
     margin:0 auto;
     padding:0 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header{
@@ -64,10 +65,24 @@ Section Main
 */
 
 section.main{
-    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    background-image: url('img/hero-bg.jpg');
     min-height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+.main_cta{
+    width:100%;
+    margin:20px 0;
+    text-align: center;
+}
+
+.main_cta h2{
+    color: #16507b;
+}
+
+
+ 
