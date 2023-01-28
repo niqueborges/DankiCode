@@ -102,9 +102,10 @@ section.main{
     cursor: pointer;
 }
 
+
 .diferenciais{
     display: flex;
-    margin: 0;
+    flex-wrap: wrap;  
 }
 
 .diferencial-single{
@@ -156,12 +157,14 @@ section.sobre{
 
 .conteúdo-sobre{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .conteúdo-sobre p{
-    margin:0 20px;
+    width:48%;
+    margin-right: 2%;
     text-align: justify;
-    color: black;
+    color: #444444;
 }
 
 .conteúdo-sobre span{
@@ -174,12 +177,31 @@ section.sobre{
     color: #007bff ;
 }
 
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+}
+
+
 
 @media screen and (max-width: 768px){
     .diferecial-single{
         width:100%;
         margin-bottom: 20px;
     }
+    .conteúdo-sobre p{width:100% ; margin:20px 20px;}
 }
         
 
