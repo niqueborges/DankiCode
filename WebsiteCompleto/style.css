@@ -38,7 +38,7 @@ header{
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
-    transition:0.4s;
+    /*transition:0.4s;*/
 
 }
 
@@ -103,8 +103,8 @@ section.main{
 }
 
 .diferenciais{
-    display:flex;
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .diferencial-single{
@@ -112,7 +112,9 @@ section.main{
     background-color: white;
     width: 50%;
     margin-right: 2%;
-    padding: 25px 10px;
+    padding: 50px 20px;
+    text-align: justify;
+    
 }
 
 .diferencial-single i{
@@ -122,7 +124,7 @@ section.main{
 
 .diferencial-single h2{
     color: #124265;
-    margin: 10px 0;
+    margin:10px 0;
     font-size: 17px;
 }
 
@@ -131,6 +133,44 @@ section.main{
     font-size: 14px;
     line-height: 30px;
 }
+
+section.sobre{
+    padding:80px 0; 
+}
+
+.chamada-sobre{
+    width:100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin:10px 0;
+}
+
+.conteúdo-sobre{
+    display: flex;
+}
+
+.conteúdo-sobre p{
+    margin:0 20px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px){
+    .diferecial-single{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+        
 
 
  
