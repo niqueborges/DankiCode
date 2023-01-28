@@ -86,7 +86,7 @@ section.main{
 }
 
 .main_cta p{
-    color: rgb(48, 47, 47);
+    color: gray;
     font-size:19px;
     margin:10px 0 ;
 }
@@ -103,14 +103,15 @@ section.main{
 }
 
 .diferenciais{
-    display:flex
+    display:flex;
+    margin: 0;
 }
 
 .diferencial-single{
     border-radius: 10px;
-    background-color: rgb(163, 163, 238);
+    background-color: white;
     width: 50%;
-    margin-right: 1%;
+    margin-right: 2%;
     padding: 25px 10px;
 }
 
@@ -128,7 +129,7 @@ section.main{
 .diferencial-single p{
     color: gray;
     font-size: 14px;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 
