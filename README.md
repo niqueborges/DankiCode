@@ -1,6 +1,5 @@
 #EternaDankiCode
-
-Curso de WebMaster Front End. Este repositório contém materiais do curso de WebMaster Front End da DankiCode.
+Este repositório contém materiais de cursos da DankiCode.
 
 Os materiais do curso incluem:
 
