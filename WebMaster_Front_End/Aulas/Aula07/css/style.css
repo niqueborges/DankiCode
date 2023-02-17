@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    width: 900px;
+    background-color: red;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.menu > a{
+    text-decoration: none;
+    font: size 20px;
+    margin: 0 10px;
+    color: green;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 4px;
+}
+
+div.menu{
+    width: 400px;
+}
+

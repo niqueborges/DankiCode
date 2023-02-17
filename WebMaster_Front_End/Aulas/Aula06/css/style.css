@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    width: 900px;
+    background: red;
+    margin: 10px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
